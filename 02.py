@@ -19,3 +19,4 @@ while(rodada <= maximo_tentaivas):
             print("O chute foi menor do que o número desejado")
     rodada = rodada + 1
 print("Fim de jogo")
+
