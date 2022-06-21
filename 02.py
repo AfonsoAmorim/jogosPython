@@ -9,5 +9,12 @@ print("Você tentou o número: ", tentativa)
 if(numero_secreto==int(tentativa)):
     print("Acertou o número")
 else:
-    print("Você errou!!")
+    if(int(tentativa) > numero_secreto):
+        print("Seu chute foi muito alto")
+    elif(int(tentativa)<numero_secreto):
+        print("O chute foi menor do que o número desejado")
+
+print("Fim de jogo")
+
+
 
