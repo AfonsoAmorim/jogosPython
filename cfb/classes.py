@@ -32,3 +32,16 @@ class Elite(NPC):
         self.forca=5
         self.municao=55
         super().__init__(nome, time, self.forca, self.municao)
+        
+    def inf(self):
+        super().info()
+
+soldado1=Guarda("Aloiso",1)
+soldado2=Guarda("Alonso",1)
+soldado3=Guarda("Alex",2)
+soldado4=Guarda("Jonas",2)
+
+soldado1.info()
+soldado2.info()
+soldado3.info()
+soldado4.info()
